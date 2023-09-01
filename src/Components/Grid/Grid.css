@@ -1,0 +1,47 @@
+
+.Grid{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30%;
+}
+.header:hover{
+    background-color: aliceblue;
+}
+
+.turn-highlight{
+    color: aliceblue;
+    font-size: 35px;
+}
+.header{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid white;
+    border-radius: 56px;
+    background-color:#ffc107;
+}
+
+.reset{
+    border-radius: 30px;
+    font-size: 30px;
+   
+}
+
+
+    @keyframes  slideInLeft {
+  from{
+    transform: translate(-300px);
+  }
+  to{
+    transform: translate(0);
+  }
+}
+.header{
+    animation: slideInLeft  1s ease-in  0s  1  normal  both;
+ 
+  }
+

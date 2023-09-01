@@ -1,0 +1,18 @@
+.card{
+    padding: 1 rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    padding: 0 3px;
+    /* background-color: var(--yellow); */
+    /* background-color: #fcc107; */
+    background-color: #fcc107;
+    
+}
+.card:hover{
+    background-color:aliceblue;
+}

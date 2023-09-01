@@ -1,0 +1,7 @@
+body{
+  background-color: black;
+  background-image: url("C:\Users\Utkarsh Choudhary\Desktop\im.jpg");
+  background-size: cover;
+  background-size: contain;
+background-repeat: repeat;
+}
